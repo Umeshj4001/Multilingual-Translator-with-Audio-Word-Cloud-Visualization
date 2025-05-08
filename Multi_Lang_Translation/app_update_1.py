@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 # Constants
 MAX_HISTORY = 10
 MAX_FILE_SIZE_MB = 5
-DATA_PATH = os.getenv("LANGUAGE_CSV_PATH", "AI/Multi_Lang_Translation/language.csv")
+DATA_PATH = os.getenv("LANGUAGE_CSV_PATH", "Multi_Lang_Translation/language.csv")
 SUPPORTED_AUDIO_FORMATS = {"wav": "audio/wav", "mp3": "audio/mp3"}
 SUPPORTED_TTS_LANGS = {
     "af", "ar", "bn", "en", "fr", "de", "hi", "gu", "it", "ja", "kn", "ml",
