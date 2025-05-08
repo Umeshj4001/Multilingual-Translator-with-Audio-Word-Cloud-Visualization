@@ -1,0 +1,9 @@
+streamlit>=1.30.0
+pandas
+gTTS
+SpeechRecognition
+wordcloud
+matplotlib
+pillow
+mtranslate
+numpy
